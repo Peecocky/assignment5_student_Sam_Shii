@@ -20,7 +20,7 @@ function YAxis(props){
                 </g>
             ))}
 
-            <text style={{ textAnchor:'middle', fontSize:'13px'}} transform={`translate(-28, ${height / 2})rotate(-90)`}>
+            <text style={{ textAnchor:'middle', fontSize:'13px'}} transform={`translate(-40, ${height / 2})rotate(-90)`}>
                 {axisLable}
             </text>
         </g>

@@ -44,7 +44,7 @@ function XAxis(props){
             })}
 
             {axisLable && (
-                <text style={{ textAnchor: 'middle', fontSize: '13px' }} x={width / 2} y={45}>
+                <text style={{ textAnchor: 'middle', fontSize: '13px' }} x={width / 2} y={40}>
                     {axisLable}
                 </text>
             )}

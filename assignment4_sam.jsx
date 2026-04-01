@@ -39,10 +39,10 @@ const Charts = () => {
         return <pre>Loading...</pre>;
     };
     const WIDTH = 600;
-    const HEIGHT = 400;
-    const margin = { top: 20, right: 20, bottom: 20, left: 35};
+    const HEIGHT = 450;
+    const margin = { top: 40, right: 20, bottom: 50, left: 60};
     const innerHeightScatter = HEIGHT - margin.top - margin.bottom;
-    const innerHeightBar = HEIGHT - margin.top - margin.bottom-120;
+    const innerHeightBar = HEIGHT - margin.top - margin.bottom - 120;
     const innerWidth = WIDTH - margin.left - margin.right;
     const MONTH = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const data = dataAll.filter( d => { 
